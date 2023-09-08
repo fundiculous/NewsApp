@@ -23,6 +23,10 @@ function displayNews(articles) {
         const title = document.createElement('h4');
         title.textContent = article.title;
         articleDiv.appendChild(title);
+
+        //create and append button to link to the article to read
+        const linkToArticle = document.createElement('button');
+        linkToArticle.
     
       // TODO: Use document.createElement and appendChild to create and append more elements
   
