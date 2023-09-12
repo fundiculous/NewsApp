@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Nothing+You+Could+Do&family=Rock+Salt&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+
+
+body {
+    background-color: #3d4c41;
+    
+
+}
+
+h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size:16px;
+    font-weight:bold; 
+    color: #999999;
+    text-align: center;
+    border-bottom:2px solid black;
+}
+
+button{
+    width: 120px;;
+    border-radius: 15;
+    background-color: #e6e6e6;
+    font-family: 'Rock Salt', cursive;
+    font-size:10px;
+    
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 50; 
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column size as needed */
+    gap: 30px; /* Adjust the gap between items as needed */
+    
+    
+  }
+  
+  .grid-item {
+    /* Style for individual items */
+    padding: 10px;
+    border: 10px solid #ddd;
+    
+    /* Add any other styling you want */
+  }
+ 
+
+  .article img,
+  .article button {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+div {
+    border: 5px solid #3d4c41;
+    border-radius:8px;
+    background-color: rgba(230, 230, 230, 0.5);
+}
